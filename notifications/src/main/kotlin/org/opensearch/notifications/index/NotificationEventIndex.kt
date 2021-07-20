@@ -98,6 +98,10 @@ internal object NotificationEventIndex : EventOperations {
         }
     }
 
+    fun getClient(): Client {
+        return client
+    }
+
     /**
      * {@inheritDoc}
      */
